@@ -2085,6 +2085,18 @@ p {
   border-radius: 200px;
   box-shadow: 0 4px 0 0 #0152ff;
 }
+.arrow__top__wrapper2 {
+  position: fixed;
+  right: 2%;
+  top: auto;
+  left: auto;
+  bottom: 2%;
+  display: inline-block;
+  padding: 12px 13px;
+  border: 1px solid #0152ff;
+  border-radius: 200px;
+  box-shadow: 0 4px 0 0 #0152ff;
+}
 
 .navigation__wrapper {
   display: -webkit-box;
