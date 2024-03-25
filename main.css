@@ -1206,6 +1206,9 @@ p {
 .heading {
   font-size: 2.7em;
 }
+.heading-CRIPS {
+  font-size: 2.5em;
+}
 
 .paragraph-4 {
   color: #000;
@@ -2927,6 +2930,10 @@ p {
     font-size: 4.5em;
     line-height: 1em;
   }
+  .heading-CRIPS{
+    font-size: 2.5em;
+    line-height: 1em;
+  }
 
   .default-wrapper {
     width: 100%;
@@ -3395,6 +3402,10 @@ p {
   }
 
   .heading {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .heading-CRIPS {
     font-size: 2em;
     line-height: 1em;
   }
@@ -4132,6 +4143,12 @@ p {
   }
 
   .heading {
+    margin-bottom: 0px;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+  }
+  .heading-CRIPS {
     margin-bottom: 0px;
     font-size: 2em;
     line-height: 1em;
