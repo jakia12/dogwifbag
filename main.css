@@ -2980,7 +2980,7 @@ p {
   }
 
   .roadmap__image {
-    width: 550px;
+    max-width: 550px;
   }
 
   .team__wrapper {
