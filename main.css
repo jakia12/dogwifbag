@@ -144,12 +144,12 @@ p {
 .heading__one {
   margin-top: 0px;
   margin-bottom: 0px;
-  outline-color: #f8450b;
+  outline-color: #0084c4;
   outline-offset: 0px;
   outline-style: none;
   outline-width: 3px;
   font-family: 'Gulfsdisplay expanded', sans-serif;
-  color: #f8450b;
+  color: white;
   font-size: 10em;
   line-height: 0.9em;
   text-align: center;
@@ -345,7 +345,7 @@ p {
   -ms-flex: 0 auto;
   flex: 0 auto;
   border: 2px none #000;
-  background-color: #f8450b;
+  background-color: #0084c4;
 }
 
 .marquee-track.is--three {
@@ -377,7 +377,8 @@ p {
   -ms-flex: 0 auto;
   flex: 0 auto;
   font-family: 'Gulfsdisplay expanded', sans-serif;
-  color: #000;
+  color: #fffdf1;
+  text-shadow: 3px 0 0 #000;
   font-size: 2.5em;
   font-weight: 700;
   text-transform: uppercase;
@@ -939,7 +940,7 @@ p {
   -ms-flex: 0 auto;
   flex: 0 auto;
   border: 4px solid #000;
-  background-color: #f8450b;
+  background-color: #0084c4;
   -webkit-transform: rotate(6deg);
   -ms-transform: rotate(6deg);
   transform: rotate(6deg);
@@ -1178,7 +1179,7 @@ p {
 }
 
 .date__ribbon__content__left.is--red {
-  background-color: #f8450b;
+  background-color: #0084c4;
 }
 
 .number {
@@ -1200,7 +1201,7 @@ p {
 
 .date.is--red {
   margin-top: 12px;
-  color: #ff1515;
+  color: #0084c4;
 }
 
 .heading {
@@ -1740,7 +1741,7 @@ p {
   -ms-flex: 0 auto;
   flex: 0 auto;
   border: 2px solid #000;
-  background-color: #f8450b;
+  background-color: #0084c4;
 }
 
 .marquee-track-2.is--three {
@@ -2009,10 +2010,10 @@ p {
 .follow__heading__stroke {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #fffdf1;
   font-size: 6em;
   line-height: 0.9em;
   text-align: center;
+  color: #fffdf1;
   text-shadow: 3px 0 0 #000;
 }
 
@@ -2262,7 +2263,7 @@ p {
   -ms-flex: 0 auto;
   flex: 0 auto;
   border: 2px none #000;
-  background-color: #f8450b;
+  background-color: #0084c4;
 }
 
 .marquee-2.is--three {
@@ -2380,7 +2381,8 @@ p {
 .marquee__heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #000;
+  color: #fffdf1;
+  text-shadow: 3px 0 0 #000;
   font-size: 3.4vh;
   white-space: normal;
 }
@@ -2458,7 +2460,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f8450b;
+  background-color: #0084c4;
   -webkit-transform: translate(-100%, 0px);
   -ms-transform: translate(-100%, 0px);
   transform: translate(-100%, 0px);
@@ -2870,7 +2872,7 @@ p {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background-color: #f8450b;
+    background-color: #0084c4;
   }
 
   .marquee__contain.is--two {
