@@ -173,6 +173,15 @@
       })((window, document), window._wpemojiSettings);
     </script>
     <style>
+      /* custom font */
+
+      @font-face {
+        font-family: "Potato Sans";
+        src: url("/fonts/Potato_sans-Bold.otf") format("woff2"),
+          /* WOFF2 font format */ url("/fonts/Potato_sans-Bold.otf")
+            format("woff"); /* WOFF font format */
+        /* Add additional src lines for other font formats if needed */
+      }
       img.wp-smiley,
       img.emoji {
         display: inline !important;
@@ -1073,7 +1082,7 @@
 
   <body
     class="home page-template page-template-elementor_header_footer page page-id-95 elementor-default elementor-template-full-width elementor-kit-91 elementor-page elementor-page-95"
-    style="background-color: #0984e3"
+    style="background-color: #0064ff"
   >
     <div id="page">
       <header
@@ -1541,7 +1550,8 @@
                         >
                           <div class="rkit-menu rkit-menu-active">
                             <a
-                              class="rkit-menu-text rkit-menu-text-active"
+                              class="rkit-menu-text"
+                              style="color: #fff !important"
                               href="#about"
                               >About</a
                             >
@@ -1561,7 +1571,7 @@
                         <div class="rkit-navmenu rkit-navmenu-tablet">
                           <div class="rkit-menu rkit-menu-active">
                             <a
-                              class="rkit-menu-text rkit-menu-text-active pointer-underline"
+                              class="rkit-menu-text pointer-underline"
                               href="#about"
                               >About</a
                             >
@@ -1822,7 +1832,10 @@
                         font-size: 59px;
                       }
                     </style>
-                    <h1 class="elementor-heading-title elementor-size-default">
+                    <h1
+                      class="elementor-heading-title elementor-size-default"
+                      style="font-family: 'Potato Sans', sans-serif"
+                    >
                       Crip
                     </h1>
                   </div>
@@ -1986,6 +1999,7 @@
                           <div class="elementor-widget-container">
                             <h3
                               class="elementor-heading-title elementor-size-default"
+                              style="font-family: 'Potato Sans', sans-serif"
                             >
                               Features.
                             </h3>
@@ -2044,7 +2058,11 @@
                               </div>
                               <div class="elementor-icon-box-content">
                                 <h4 class="elementor-icon-box-title">
-                                  <span>
+                                  <span
+                                    style="
+                                      font-family: 'Potato Sans', sans-serif;
+                                    "
+                                  >
                                     Unique Concept<br /><br /><br />
                                   </span>
                                 </h4>
@@ -2093,7 +2111,13 @@
                               </div>
                               <div class="elementor-icon-box-content">
                                 <h4 class="elementor-icon-box-title">
-                                  <span> Community-Driven<br /> </span>
+                                  <span
+                                    style="
+                                      font-family: 'Potato Sans', sans-serif;
+                                    "
+                                  >
+                                    Community-Driven<br />
+                                  </span>
                                 </h4>
                                 <p
                                   class="elementor-icon-box-description"
@@ -2139,7 +2163,11 @@
                               </div>
                               <div class="elementor-icon-box-content">
                                 <h4 class="elementor-icon-box-title">
-                                  <span>
+                                  <span
+                                    style="
+                                      font-family: 'Potato Sans', sans-serif;
+                                    "
+                                  >
                                     Memorable Branding<br /><br /><br />
                                   </span>
                                 </h4>
@@ -2223,7 +2251,10 @@
                   data-widget_type="heading.default"
                 >
                   <div class="elementor-widget-container">
-                    <h3 class="elementor-heading-title elementor-size-default">
+                    <h3
+                      class="elementor-heading-title elementor-size-default"
+                      style="font-family: 'Potato Sans', sans-serif"
+                    >
                       About
                     </h3>
                   </div>
@@ -2264,8 +2295,12 @@
           data-id="3d038ca2"
           data-element_type="section"
           data-settings='{"background_background":"classic"}'
+          style="background-image: none; background: none"
         >
-          <div class="elementor-background-overlay"></div>
+          <div
+            class="elementor-background-overlay"
+            style="background-image: none; background: none"
+          ></div>
           <div class="elementor-container elementor-column-gap-default">
             <div
               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-656f4399 elementor-invisible"
@@ -2294,7 +2329,10 @@
                   data-widget_type="heading.default"
                 >
                   <div class="elementor-widget-container">
-                    <h3 class="elementor-heading-title elementor-size-default">
+                    <h3
+                      class="elementor-heading-title elementor-size-default"
+                      style="font-family: 'Potato Sans', sans-serif"
+                    >
                       Tokenomics
                     </h3>
                   </div>
@@ -2401,6 +2439,7 @@
           class="elementor-section elementor-top-section elementor-element elementor-element-f198cb5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
           data-id="f198cb5"
           data-element_type="section"
+          style="padding-bottom: 60px"
         >
           <div class="elementor-container elementor-column-gap-default">
             <div
@@ -2428,19 +2467,56 @@
                   data-widget_type="heading.default"
                 >
                   <div class="elementor-widget-container">
+                    <img src="/images/logo.png" style="width: 300px" alt="" />
                     <h2
                       class="elementor-heading-title elementor-size-default"
-                      style="color: #fff"
+                      style="
+                        color: #fff;
+                        font-family: 'Potato Sans', sans-serif;
+                      "
                     >
-                      Roadmap
+                      Join Our Community
                     </h2>
+                    <div>
+                      <a
+                        href="http://"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src="/images/twitter.svg"
+                          style="width: 110px"
+                          alt=""
+                        />
+                      </a>
+                      <a
+                        href="http://"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img src="/images/tg.svg" style="width: 110px" alt="" />
+                      </a>
+                      <a
+                        href="http://"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src="/images/dex.svg"
+                          style="width: 110px"
+                          alt=""
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section
+
+        <!-- roadmap content -->
+        <!-- <section
           class="elementor-section elementor-top-section elementor-element elementor-element-4b2d5de2 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
           data-id="4b2d5de2"
           data-element_type="section"
@@ -2523,7 +2599,7 @@
                             <h3
                               class="elementor-heading-title elementor-size-default"
                             >
-                              phase 2
+                              phase 1
                             </h3>
                           </div>
                         </div>
@@ -2720,7 +2796,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
       <footer itemscope="itemscope" itemtype="https://schema.org/WPFooter">
         <style>
