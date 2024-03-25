@@ -10,7 +10,17 @@
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
 
     <!-- description tag -->
+    <style>
+      .mb_logo {
+        display: none;
+      }
 
+      @media screen and (max-width: 768px) {
+        .mb_logo {
+          display: block;
+        }
+      }
+    </style>
     <script>
       window._wpemojiSettings = {
         baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1495,10 +1505,17 @@
                           display: inline-block;
                         }
                       </style>
-                      <img " src="images/logo.png" class="attachment-full
-                      size-full wp-image-58" alt="" style="width:
-                      100px!important;height:100px!important; box-shadow: 0px
-                      7px 10px -2px #585050; " />
+
+                      <img
+                        src="images/logo.png"
+                        class="mb_logo"
+                        alt=""
+                        style="
+                          width: 100px !important;
+                          height: 100px !important;
+                          box-shadow: 0px 7px 10px -2px #585050;
+                        "
+                      />
                     </div>
                   </div>
                 </div>
@@ -2237,6 +2254,14 @@
                       loading="lazy"
                       src="images/4.png"
                       class="attachment-full size-full wp-image-175"
+                      style="position: absolute; left: 30%; top: 2%"
+                      alt=""
+                    />
+                    <img
+                      decoding="async"
+                      loading="lazy"
+                      src="images/5.PNG"
+                      class="attachment-full size-full wp-image-175"
                       alt=""
                     />
                   </div>
@@ -2488,7 +2513,7 @@
                       loading="lazy"
                       width="500px"
                       height="564"
-                      src="images/5.png"
+                      src="images/7.PNG"
                       class="attachment-full size-full wp-image-820"
                       alt=""
                       sizes="(max-width: 1300px) 100vw, 1300px"
